@@ -147,13 +147,13 @@ export default {
 
   data() {
     return {
-      api_key: "", //Inserir a chave da API AQUI 
+      api_key: "ec40f5e4d97b396e14629aaf3426614f", //Inserir a chave da API AQUI 
       url_base: "https://api.openweathermap.org/data/2.5/",
       query: "",
       weather: {},
       isError: false,
       icones: [],
-      dias: [0, 1, 9, 17, 25, 32],
+      dias: [0, 1, 9, 17, 25, 33],
       max_temp: [],
       min_temp: [],
       timestamp: []
